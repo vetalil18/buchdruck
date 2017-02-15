@@ -1,0 +1,23 @@
+{
+  "name": "buchdruck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vetalil18/buchdruck.git"
+  },
+  "author": "vetalil18 <vetalil18@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vetalil18/buchdruck/issues"
+  },
+  "homepage": "https://github.com/vetalil18/buchdruck#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-less": "^3.3.0"
+  }
+}
