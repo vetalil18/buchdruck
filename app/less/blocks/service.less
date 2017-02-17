@@ -1,0 +1,41 @@
+.service {
+	padding-top: 76px;
+	padding-bottom: 35px;
+}
+.service-title {
+	text-align: center;
+}
+
+.service__item-title {
+	position: relative;
+	margin: 0;
+	margin-bottom: 20px;
+	padding-bottom: 3px;
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+
+	&::before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 50px;
+		height: 2px;
+		background-color: @colorOrange;
+	}
+}
+.service-title-servises {
+	margin-bottom: 42px;
+}
+.service__item-text {
+	margin: 0;
+	margin-bottom: 39px;
+	color: #676767;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+}
