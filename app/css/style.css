@@ -74,7 +74,7 @@ a:hover {
 .main-menu__item-email {
   position: relative;
   display: block;
-  padding: 26px 0;
+  padding: 20px 0;
   padding-left: 70px;
   box-shadow: inset 0 -1px 0 0 #ececec;
   color: #676767;
@@ -118,11 +118,10 @@ a:hover {
 .main-menu__item-link-active {
   color: #ff5722;
 }
-.main-menu__item-link-active:hover {
-  text-decoration: none;
+.main-menu__item-link:hover {
   color: #ff5722;
 }
-.main-menu__item-link-active::before {
+.main-menu__item-link:hover::before {
   content: '';
   position: absolute;
   height: 63px;
@@ -476,6 +475,7 @@ a:hover {
 .some-work {
   padding-top: 64px;
   padding-bottom: 75px;
+  box-shadow: inset 0 -1px 0 0 #e1e1e1, inset 0 1px 0 0 #e1e1e1;
 }
 .some-work__title {
   text-align: center;
@@ -554,4 +554,98 @@ a:hover {
 }
 .some-work__more-link:hover {
   color: #676767;
+}
+.contact-me {
+  opacity: 0.8;
+  background-color: #303030;
+  padding-top: 78px;
+  padding-bottom: 82px;
+}
+.contact-me__title {
+  text-align: center;
+}
+.contact-me__pages-title {
+  color: white;
+}
+.contact-me__info {
+  color: white;
+  padding-right: 165px;
+}
+.contact-me__info-item-title {
+  margin: 0;
+  font-family: 'Roboto Slab';
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.contact-me__info-item-text {
+  margin: 0;
+  color: #eaeaea;
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-me__info-item {
+  margin-bottom: 28px;
+}
+.contact-me__info-item a {
+  color: #eaeaea;
+}
+.contact-me__info-item:last-child {
+  margin-bottom: 0;
+}
+.contact-me__input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 17px 24px;
+  margin-bottom: 13px;
+  background: none;
+  outline: none;
+  border: none;
+  border: 1px solid #b7b7b7;
+  color: #d0d0d0;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+::-webkit-input-placeholder {
+  color: #d0d0d0;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.contact-me__input-message {
+  height: 188px;
+}
+.contact-me__submit {
+  display: block;
+  width: 100%;
+  padding: 22px 0;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  background: none;
+  outline: none;
+  border: none;
+  background-color: #ff5722;
+  box-shadow: inset 0 -5px 0 0 #dc3905;
+  border-radius: 3px;
+}
+.footer-page {
+  text-align: center;
+  padding-top: 46px;
+  padding-bottom: 48px;
+}
+.footer-page__text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-page__text-link {
+  color: #ff5722;
 }
